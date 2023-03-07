@@ -9,6 +9,6 @@
             $this->getParams();
         }
         public function getParams() {
-            var_dump($_GET);
+            var_dump($_GET); echo "a"'  
         }
     }

@@ -21,7 +21,7 @@
                     $this->currentMethode = $url[1];
                     unset($url[1]);
                 }
-                var_dump($this->currentMethode);
+                // var_dump($this->currentMethode);
             }
             // get params
             $this->params = $url ? array_values($url) : [];
